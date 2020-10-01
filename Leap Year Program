@@ -1,0 +1,18 @@
+int y=Integer.parseInt(t1.getText()); 
+        if(y%40==0) 
+        { 
+            l1.setText("Its a Leap Year"); 
+        } 
+        else if(y%100==0) 
+        { 
+            l1.setText("Its not a Leap Year");
+        } 
+        else if(y%4==0) 
+        { 
+            l1.setText("Its a Leap Year");
+        } 
+        else 
+        { 
+            l1.setText("Its not a Leap Year");
+        }
+    }   
