@@ -1,5 +1,5 @@
 int y=Integer.parseInt(t1.getText()); 
-        if(y%40==0) 
+        if(y%400==0) 
         { 
             l1.setText("Its a Leap Year"); 
         } 
